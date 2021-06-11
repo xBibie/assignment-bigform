@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        Contact formulier Bibi
+    </head>
+    <body>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Naam: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Email adres: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Telefoonnummer: <input type="tel" name="Telefoonnummer" /></label>
+            </p>
+            <p>
+              <label>Leeftijd: <input type="number" name="Leeftijd" /></label>
+            </p>
+            <p>
+              <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label>
+            </p>
+            <p>
+              <label>Gender: <input type="radio" name="Man" />Man <input type="radio" name="Vrouw" />Vrouw <input type="radio" name="Anders" />Anders</label>
+            </p>
+            <p>
+              <label>Favoriete Planten: <input type="checkbox" name="plant1" />Calathea <input type="checkbox" name="plant2" />Alocasia <input type="checkbox" name="plant3" />Photos <input type="checkbox" name="plant4" />Vetplant </label>
+            </p>
+            <p>
+              <label>Favoriete kleur pot: <input type="color" name="potkleur" /></label>
+            </p>
+            <p>
+              <label>Biografie: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <label>Upload je planten routine: <input type="file" name="plantroutine" /></label>
+            </p>
+            <p>
+              <label>URL naar je website: <input type="url" name="websitelink" /></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+              <button type="reset">Reset</button>
+            </p>
+            <h3><a href="index.html">Go back</a></h3>
+          </form>
+    </body>
+</html>
